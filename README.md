@@ -49,21 +49,25 @@ your-user ALL=(ALL:ALL) ALL
 
 - After that, you can use sudo. 
 
+# Now How about we Change our DHCP to Static
+
 # Set a Static IP Address on Debian Server
 
 - With Debian, setting a static IP address is a bit more old-school, so I’m going to show you how it’s done.
 
 # How to give a standard user sudo privileges in a Debian server
 
+- You can follow above tutorial or simply see below :)
+
 - Let’s create a new user first. I’ll demonstrate by creating the user olivia (you can name the user whatever you like). To do that, log into Debian server as the root user and issue the command:
 
-```lua
+```bash
 adduser george
 ```
 
 - Once you’ve added the new user, add that user to the sudo group with:
 
-```lua
+```bash
 sudo usermod -aG sudo george
 ```
 
