@@ -1,4 +1,4 @@
-# All about Debian 11
+# Stuff about Debian 11
 
 - Debian 11 got released and if you are debian fan like me am sure you cant wait to test it out. I did :)
 - One thing you will notice if your user cannot use **sudo** and if you are from ubuntu or linux mint, am sure you will miss it, so here is a small guide to enable it.
